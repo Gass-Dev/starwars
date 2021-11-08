@@ -3,6 +3,8 @@
 ## FrontEnd Application Desktop
 Next.js
 
+https://nextjs.org/
+
 ## Api: https://swapi.dev/
 
 ### Starts the development server:
