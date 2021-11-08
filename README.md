@@ -5,7 +5,8 @@ Next.js
 
 https://nextjs.org/
 
-## Api: https://swapi.dev/
+## Api
+https://swapi.dev/
 
 ## Commands for Next.Js
 ### Starts the development server:
