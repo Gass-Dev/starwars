@@ -7,6 +7,7 @@ https://nextjs.org/
 
 ## Api: https://swapi.dev/
 
+## Commands for Next.Js
 ### Starts the development server:
 cd starwars
 yarn dev
