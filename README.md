@@ -22,9 +22,8 @@ yarn start
 
 ## Wireframes
 
-![Signup](https://user-images.githubusercontent.com/54604218/140970978-604aa4c1-069b-4cb0-95ee-5605787b449f.png)
+![Signup](https://user-images.githubusercontent.com/54604218/141129987-f765cf40-fb9e-4be1-aed5-10f7c6334ebd.png)
 
-![List](https://user-images.githubusercontent.com/54604218/140971007-15b6d7d8-93b6-41bf-b5d1-43f23f8bef60.png)
+![List](https://user-images.githubusercontent.com/54604218/141129998-e9f5e87a-3f86-413c-974c-725610629b25.png)
 
-![Détail](https://user-images.githubusercontent.com/54604218/140971015-439b6142-1841-44ee-8d48-621143222860.png)
-
+![Détail](https://user-images.githubusercontent.com/54604218/141130003-913dc3df-1190-4bd9-a8da-7fc5c33741c3.png)
