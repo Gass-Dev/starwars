@@ -41,11 +41,15 @@ const Navbar = () => {
         </ul>  
       </div>
 
-      <div className={styles.search}>
-        <input type="text" placeholder="Search.."></input>
+      <div class="search-container">
+        <form>
+          <input type="text" placeholder="Search..." name="search"></input>
+          <button type="submit">Submit
+            {/* <span className='material-icons'>arrow_forward_ios</span> */}
+          </button>
+          
+        </form>
       </div>
-
-
     </nav>
   )
 }

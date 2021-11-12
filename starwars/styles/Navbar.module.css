@@ -25,11 +25,16 @@
     padding-right: 5vw;
 }
 
-.search {
+.search-container {
     padding-right: 5vw;
 }
 
-.search input {
+.search-container input {
+    border: 1px solid rgba(0, 0, 0,1);
+    border-radius: 4px;
+}
+
+.search-container button {
     border: 1px solid rgba(0, 0, 0,1);
     border-radius: 4px;
 }

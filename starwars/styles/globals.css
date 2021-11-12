@@ -18,3 +18,5 @@ a {
   font-family: 'Anakinmono';
   src: url("../public/font/Anakinmono.ttf");
 }
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons')
