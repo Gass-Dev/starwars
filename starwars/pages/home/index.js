@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
 
-const Users = () => {
+const Home = () => {
   return (
     <div className='content'>
       <Navbar />
@@ -9,4 +9,4 @@ const Users = () => {
   )
 }
  
-export default Users
+export default Home

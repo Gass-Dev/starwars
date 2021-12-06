@@ -1,0 +1,104 @@
+.login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background-color:rgb(0, 0, 0);
+  position: fixed;
+  bottom: 0;
+}
+
+.video {
+  width: 120%;
+  height: 120%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 18%;
+  z-index: 1;
+}
+
+.content {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  color: white;
+}
+
+.content h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  margin-top: 0;
+  margin-bottom: 5vh;
+  z-index: 1;
+}
+
+.form {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.label {
+  width: 50%;
+  margin-bottom: 2vh;
+  font-size: 1.2rem;
+  z-index: 1;
+}
+
+.input {
+  width: 100%;
+  height: 4vh;
+  margin-bottom: 4vh;
+  font-size: 0.8rem;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.input::placeholder {
+  color: white;
+  padding: 1vh;
+  z-index: 1;
+}
+
+.input:read-write {
+  color: white;
+  padding: 2vh;
+}
+
+.inputButton {
+  width:65%;
+  height: 4vh;
+  margin-top: 3vh;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.buttonRegister {
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin-top: 3vh;
+  text-decoration: underline;
+}
