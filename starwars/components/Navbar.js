@@ -7,13 +7,28 @@ const Navbar = () => {
   return (
     <nav className={styles.navBar}>
 
-      <div className={styles.navBar_logo}>
-        <Link href="/">
-          <a>
-            <Image src='/StarWars_logo.png' alt='Logo Star Wars' width={116} height={50}/>
-          </a>
-        </Link>
+      <div className={styles.navTop}>
+        <div></div>
+
+        <div className={styles.navBar_logo}>
+          <Link href='/'>
+            <a>
+              <Image src='/starWars_logo_white.png' priority alt='Logo Star Wars' layout='responsive' objectFit={'contain'} width={1} height={1}/>
+            </a>
+          </Link>
+        </div>
+
+        <div className={styles.searchContainer}>
+          <form>
+            <input type='text' placeholder='Search Star Wars' name='search'></input>
+            <button type='submit'>
+            <Image src='/icons/search.png' alt='icon search' layout='responsive' objectFit={'cover'} width={1} height={1}/>
+            </button>
+            
+          </form>
+        </div>
       </div>
+      
 
       <div className={styles.navBar_onglets}>
         <ul>
@@ -41,15 +56,6 @@ const Navbar = () => {
         </ul>  
       </div>
 
-      <div class="search-container">
-        <form>
-          <input type="text" placeholder="Search..." name="search"></input>
-          <button type="submit">Submit
-            {/* <span className='material-icons'>arrow_forward_ios</span> */}
-          </button>
-          
-        </form>
-      </div>
     </nav>
   )
 }

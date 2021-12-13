@@ -36,7 +36,7 @@ export default function Register() {
   return (
     <div className={styles.register}>
       <div className={styles.logo}>
-      <Image src='/StarWars_logo.png' alt='Logo Star Wars' layout='responsive' objectFit={'contain'} width={1} height={1}/>
+      <Image src='/starWars_logo.png' priority alt='Logo Star Wars' layout='responsive' objectFit={'contain'} width={1} height={1}/>
       </div>
       
       <div className={styles.content}>

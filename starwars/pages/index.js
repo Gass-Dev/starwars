@@ -34,12 +34,12 @@ export default function Login() {
     <div className={styles.login}>
       <div className={styles.video}>
         <video  autoPlay loop muted>         
-          <source src='/video/DeathStar.mp4' type='video/mp4' alt='dark vador' />
+          <source src='/video/deathStar.mp4' priority type='video/mp4' alt='dark vador' />
         </video>
       </div>
       
       <div className={styles.logo}>
-        <Image src='/StarWars_logo_white.png' alt='Logo Star Wars' layout='responsive' objectFit={'contain'} width={1} height={1}/>
+        <Image src='/starWars_logo_white.png' priority alt='Logo Star Wars' layout='responsive' objectFit={'contain'} width={1} height={1}/>
       </div>
 
       <div className={styles.content}>
@@ -53,7 +53,7 @@ export default function Login() {
             <label className={styles.label} for='password'> Password </label>
             <input className={styles.input} value={password} onChange={(e) => {setPassword(e.target.value)}} id='password' type='password' placeholder='*******' required />
 
-            <input className={styles.inputButton} type='submit' value='Login'/> 
+            <input className={styles.inputButton} onclick='/home' type='submit' value='Login'/> 
 
             <Link href='/register' passHref>
               <button className={styles.buttonRegister}>Sign up now!</button>
